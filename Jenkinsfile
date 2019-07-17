@@ -83,7 +83,6 @@ pipeline {
                 )
             }
         }
-    }
     post {
       cleanup {
           kubernetesDeploy(
